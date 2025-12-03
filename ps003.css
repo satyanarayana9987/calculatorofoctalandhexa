@@ -1,0 +1,45 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e3eef8;
+    padding: 20px;
+}
+
+/* Center the content box */
+.content {
+    margin: 8% auto;        /* centers the block */
+    width: 300px;           /* fixed width for perfect alignment */
+    text-align: center;
+}
+
+input, select, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    box-sizing: border-box;  /* prevents overflow */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    background-color: #4CAF50;
+    width: 100%;
+}
